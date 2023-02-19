@@ -1,0 +1,500 @@
+/* .bai {
+    margin-bottom: 30px;
+} */
+
+hr {
+    margin: 50px 0 50px 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* input:focus {
+    cursor: text;
+} */
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Bai 1 start */
+.bai1 {
+    text-align: center;
+    padding: 20px;;
+    /* display: flex; */
+}
+
+.bai1 h1 {
+    margin: 30px 0 10px 0;
+}
+
+.bai1 .container {
+    margin: auto;
+    background-color: #f2f2f2;
+    width: 640px;
+    height: 360px;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.bai1 .icon {
+    border: 2px solid #6ACDCD;
+    border-radius: 50%;
+    padding: 10px;
+    color: #6ACDCD;
+}
+
+.bai1 .para {
+    color: #BBBBBB;
+    margin: 20px 0;
+}
+
+.bai1 input {
+    padding: 14px 20px;
+    width: 44%;
+    margin-bottom: 10px;
+    outline: 0;
+    border: 0;
+}
+
+.bai1 button {
+    background-color: #72CBD1;
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+/* Bai 1 end */
+
+
+/* Bai 2 start*/
+/* .bai2 {
+    margin: auto;
+    width: 50%;
+} */
+
+.bai2 .container {
+    display: flex;
+    justify-content: center;
+}
+
+.bai2 h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.bai2 button {
+    padding: 5px 15px;
+    border: 1px solid #000;
+    outline: 0;
+    border-radius: 2px;
+    color: #6B6B6B;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.bai2 p {
+    margin-bottom: 20px;
+}
+
+.bai2 img {
+    border: 3px solid #ccc;
+    margin-right: 30px;
+}        
+
+/* Bai 2 end*/
+
+/* Bai 2 lan 2 start*/
+
+/* .bai2-lan2 {
+    display: flex;
+} */
+
+.bai2-lan2 .container {
+    display:flex;
+    margin: auto;
+    width: 1200px;
+    justify-content: center;
+}
+
+.bai2-lan2 .container .content{
+    width: 60%;
+}
+
+.bai2-lan2 h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.bai2-lan2 button {
+    padding: 5px 15px;
+    border: 1px solid #000;
+    outline: 0;
+    border-radius: 2px;
+    color: #6B6B6B;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.bai2-lan2 p {
+    margin-bottom: 20px;
+}
+
+.bai2-lan2 img {
+    border: 3px solid #ccc;
+    border-radius: 2px;
+    margin-right: 30px;
+}        
+
+/* Bai 2 lan 2 end*/
+
+/* Bai 3 start  */
+
+.main-inform {
+    display: flex;
+    gap: 10px;
+}
+
+.main-inform input {
+    width: 50%;
+    /* outline: 0; */
+}
+
+/* .bai3 {
+    display: flex;
+} */
+
+.bai3 h3 {
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.bai3 textarea,
+.bai3 input {
+    padding: 10px;  
+    margin-bottom: 10px;
+    outline: 0;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+
+.subject-form {
+    width: 100%;
+}
+
+.bai3 .container {
+    margin: auto;
+    width: 1336px;
+}
+
+.bai3 .container textarea{
+    width: 100%;
+    height: 300px;
+    outline: 0;
+}
+
+.bai3 button {
+    background-color: #7DCEFD;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    padding: 14px 10px;
+}
+
+.bai3 .content-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bai3 .content-text p {
+    color: #777777;
+}
+
+/* Bai 3 end  */
+
+/* Bai 4 start */
+.bai4 {
+    background-color: #F7F7F7;
+    position: relative;
+    height: 450px;
+    /* display: flex; */
+    justify-content: center;
+    width: 1336px;
+    margin: auto;
+}
+
+.bai4 .header {
+    background-color: #01BACF;
+    color: #fff;
+    padding: 20px 30px 40px 20px;
+    width: 1336px;
+    height: 168px;
+    /* margin-left: 28px; */
+    /* width: 100%; */
+}
+
+.bai4 h1 {
+    margin-left: 32px;
+}
+
+.bai4 h4 {
+    margin: 10px 0 20px 0;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.bai4 p {
+    font-size: 17px;
+    color: #BEBEBE;
+}
+
+.bai4 .icon a {
+    font-size: 32px;
+    color: #C4D82C;
+}
+
+.bai4 .box-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    position: absolute;
+    top: 130px;
+    border-right-color: #ccc;
+    /* width: 100%; */
+    width: 1336px;
+}
+
+.bai4 .box-container .box {
+    background-color: #fff;
+    width: 30%;
+    height: 260px;
+    padding: 40px 62px 40px 30px;
+}
+
+
+
+
+
+/* Bai 4 end */
+
+
+
+/* Bai 5 start */
+.bai5 {
+    display: flex;
+    /* background-color: #FAFAFA; */
+    justify-content:center;
+    gap: 30px;
+}
+
+.bai5 a {
+    text-decoration: none;
+}
+
+.bai5 .bai5-container {
+    display: flex;
+    /* justify-content:center */
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+.phone {
+    position: relative;
+}
+
+/* Anh trong giao trinh */
+.bai5-img-w-phone {
+    position: absolute;
+    top: 106px;
+    /* left: 141px; */
+    right: 47px;
+    background-image: url('./img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 531px;
+    width: 298px;
+    z-index: 1000;
+    animation: switch-img 2s linear infinite;
+}
+
+@keyframes switch-img {
+    25% {
+        background-image: url('./img/img2.jpg');
+    }
+    50% {
+        background-image: url('./img/img3.jpg');
+    }
+    75% {
+        background-image: url('./img/img4.jpg');
+    }
+    100% {
+        background-image: url('./img/img1.jpg');
+    }
+}
+
+/* Anh tren mang */
+/* .bai5-img-w-phone{
+    position: absolute;
+    top: 198px;
+    left: 140px;
+    background-image: url('./img/bucanh1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 334px;
+    width: 298px;
+    z-index: 1000;
+    animation: switch-img-w-phone 8s linear infinite;
+}
+
+
+
+
+@keyframes switch-img-w-phone {
+    25% {
+        background-image: url('./img/bucanh2.jpg');
+    }
+    50% {
+        background-image: url('./img/bucanh3.jpg');
+    }
+    75% {
+        background-image: url('./img/bucanh4.jpg');
+    }
+} */
+
+.bai5 .login-container {
+    padding: 10px;
+}
+
+.bai5 .login-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.bai5 .login {
+    width: 400px;
+    text-align: center;
+}
+
+.bai5 .login-container,
+.bai5 .sign-up-container{
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.3);
+}
+
+.bai5 h2 {
+    font-size: 50px;
+    margin: 20px 0 30px 0 ;
+}
+
+.bai5 .fogot-pwd,
+.bai5 .login-w-facebook,
+.bai5 .button-login,
+.bai5 .separate,
+.bai5 .login input{
+    width: 73%;
+}
+
+.bai5 .login input{
+    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 10px;
+    outline: 0;
+    margin-bottom: 10px;
+}
+
+.bai5 .button-login {
+    background-color: #5ecfdc;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+}
+
+.bai5 .separate {
+    border-top: 1px solid #ccc;
+    position: relative;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bai5 .separate .or {
+    color: #ccc;
+    position: absolute;
+    top: -10px;
+    width: 14%;
+    /* margin: auto; */
+    background-color: #FAFAFA;
+}
+
+.bai5 .login-w-facebook,
+.bai5 .fogot-pwd {
+    color: #39507F;
+}
+
+
+.bai5 .login-w-facebook {
+    /* display: block; */
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.bai5 .fogot-pwd {
+    /* display: block; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bai5 .sign-up-container {
+    padding: 20px;
+    font-size:17px;
+}
+
+.bai5 .sign-up-container a {
+    color: #008DE7;
+    font-weight: 600;
+}
+
+.get-app {
+    margin-top: 10px;
+}
+
+.get-app p {
+    font-size:17px;
+    padding: 20px;
+}
+
+.get-app .download {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+
+.get-app .download img {
+    height: 44px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Bai 5 end */
