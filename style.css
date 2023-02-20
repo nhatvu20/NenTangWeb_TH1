@@ -1,27 +1,24 @@
-/* .bai {
-    margin-bottom: 30px;
-} */
-
-hr {
-    margin: 50px 0 50px 0;
-}
-
-a {
-    cursor: pointer;
-}
-
-/* html {
-    font-size: 62.5%;
-} */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* input:focus {
-    cursor: text;
-} */
+html {
+    font-size: 62.5%;
+}
+
+hr {
+    margin: 5rem 0 5rem 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+}
 
 button:hover {
     cursor: pointer;
@@ -30,39 +27,42 @@ button:hover {
 /* Bai 1 start */
 .bai1 {
     text-align: center;
-    padding: 20px;;
-    /* display: flex; */
+    padding: 2rem;;
+    display: flex;
+    justify-content: center;
 }
 
 .bai1 h1 {
-    margin: 30px 0 10px 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .bai1 .container {
     margin: auto;
     background-color: #f2f2f2;
-    width: 640px;
-    height: 360px;
-    padding: 50px;
-    border-radius: 4px;
+    width: 64rem;
+    height: 36rem;
+    padding: 5rem;
+    border-radius: 0.4rem;
 }
 
 .bai1 .icon {
-    border: 2px solid #6ACDCD;
+    border: 0.2rem solid #6ACDCD;
     border-radius: 50%;
-    padding: 10px;
+    padding: 1rem;
     color: #6ACDCD;
+    font-size: 1.6rem;
 }
 
 .bai1 .para {
     color: #BBBBBB;
-    margin: 20px 0;
+    margin: 2rem 0;
+    font-size: 1.6rem;
 }
 
 .bai1 input {
-    padding: 14px 20px;
+    padding: 1.4rem 2rem;
     width: 44%;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     outline: 0;
     border: 0;
 }
@@ -71,7 +71,7 @@ button:hover {
     background-color: #72CBD1;
     outline: 0;
     border: 0;
-    padding: 15px 20px;
+    padding: 1.5rem 2rem;
     color: #fff;
     font-weight: 600;
 }
@@ -92,31 +92,40 @@ button:hover {
 .bai2 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bai2 h2 {
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 14px;
+    margin-bottom: 1.4rem;
+    font-size: 2rem;
 }
 
 .bai2 button {
-    padding: 5px 15px;
-    border: 1px solid #000;
+    padding: 0.5rem 1.5rem;
+    border: 0.1rem solid #000;
     outline: 0;
-    border-radius: 2px;
+    border-radius: 0.2rem;
     color: #6B6B6B;
-    margin-top: 30px;
+    margin-top: 3rem;
     background-color: #fff;
 }
 
 .bai2 p {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.bai2 .img {
+    width: 20rem;
+    margin-right: 3rem;
+
 }
 
 .bai2 img {
-    border: 3px solid #ccc;
-    margin-right: 30px;
+    border: 0.3rem solid #ccc;
+    width: 100%;
 }        
 
 /* Bai 2 end*/
@@ -129,8 +138,9 @@ button:hover {
 
 .bai2-lan2 .container {
     display:flex;
+    flex-wrap: wrap;
     margin: auto;
-    width: 1200px;
+    width: 120rem;
     justify-content: center;
 }
 
@@ -141,27 +151,34 @@ button:hover {
 .bai2-lan2 h2 {
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 14px;
+    margin-bottom: 1.4rem;
+    font-size: 2rem;
 }
 
 .bai2-lan2 button {
-    padding: 5px 15px;
-    border: 1px solid #000;
+    padding: 0.5rem 1.5rem;
+    border: 0.1rem solid #000;
     outline: 0;
-    border-radius: 2px;
+    border-radius: 0.2rem;
     color: #6B6B6B;
-    margin-top: 30px;
+    margin-top: 3rem;
     background-color: #fff;
 }
 
 .bai2-lan2 p {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.bai2-lan2 .img {
+    width: 20rem;
+    margin-right: 3rem;
 }
 
 .bai2-lan2 img {
-    border: 3px solid #ccc;
+    border: 0.3rem solid #ccc;
     border-radius: 2px;
-    margin-right: 30px;
+    width: 100%;
 }        
 
 /* Bai 2 lan 2 end*/
@@ -170,7 +187,7 @@ button:hover {
 
 .main-inform {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .main-inform input {
@@ -184,15 +201,16 @@ button:hover {
 
 .bai3 h3 {
     font-weight: 550;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .bai3 textarea,
 .bai3 input {
-    padding: 10px;  
-    margin-bottom: 10px;
+    padding: 1rem;  
+    margin-bottom: 1rem;
     outline: 0;
-    border: 2px solid rgba(0,0,0,0.3);
+    border: 0.2rem solid rgba(0,0,0,0.3);
 }
 
 .subject-form {
@@ -201,12 +219,12 @@ button:hover {
 
 .bai3 .container {
     margin: auto;
-    width: 1336px;
+    width: 133.6rem;
 }
 
 .bai3 .container textarea{
     width: 100%;
-    height: 300px;
+    height: 30rem;
     outline: 0;
 }
 
@@ -215,8 +233,8 @@ button:hover {
     color: #fff;
     outline: 0;
     border: 0;
-    border-radius: 2px;
-    padding: 14px 10px;
+    border-radius: 0.2rem;
+    padding: 1.4rem 1rem;
 }
 
 .bai3 .content-text {
@@ -226,6 +244,7 @@ button:hover {
 
 .bai3 .content-text p {
     color: #777777;
+    font-size: 1.6rem;
 }
 
 /* Bai 3 end  */
@@ -234,59 +253,59 @@ button:hover {
 .bai4 {
     background-color: #F7F7F7;
     position: relative;
-    height: 450px;
+    height: 45rem;
     /* display: flex; */
     justify-content: center;
-    width: 1336px;
+    width: 133.6rem;
     margin: auto;
 }
 
 .bai4 .header {
     background-color: #01BACF;
     color: #fff;
-    padding: 20px 30px 40px 20px;
-    width: 1336px;
-    height: 168px;
-    /* margin-left: 28px; */
+    padding: 2rem 3rem 4rem 2rem;
+    width: 133.6rem;
+    height: 16.8rem;
+    /* margin-left: 2.8rem; */
     /* width: 100%; */
 }
 
 .bai4 h1 {
-    margin-left: 32px;
+    margin-left: 3.2rem;
 }
 
 .bai4 h4 {
-    margin: 10px 0 20px 0;
+    margin: 1rem 0 2rem 0;
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .bai4 p {
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #BEBEBE;
 }
 
 .bai4 .icon a {
-    font-size: 32px;
+    font-size: 3.2rem;
     color: #C4D82C;
 }
 
 .bai4 .box-container {
     display: flex;
-    gap: 15px;
+    gap: 1.5rem;
     justify-content: center;
     position: absolute;
-    top: 130px;
+    top: 13rem;
     border-right-color: #ccc;
     /* width: 100%; */
-    width: 1336px;
+    width: 133.6rem
 }
 
 .bai4 .box-container .box {
     background-color: #fff;
     width: 30%;
-    height: 260px;
-    padding: 40px 62px 40px 30px;
+    height: 26rem;
+    padding: 4rem 6.2rem 4rem 3rem;
 }
 
 
@@ -302,7 +321,7 @@ button:hover {
     display: flex;
     /* background-color: #FAFAFA; */
     justify-content:center;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .bai5 a {
@@ -314,24 +333,29 @@ button:hover {
     /* justify-content:center */
     align-items: center;
     background-color: #FAFAFA;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .phone {
     position: relative;
+    width: 48.6rem;
+}
+
+.phone img {
+    width: 100%;
 }
 
 /* Anh trong giao trinh */
 .bai5-img-w-phone {
     position: absolute;
-    top: 106px;
-    /* left: 141px; */
-    right: 47px;
+    top: 10.6rem;
+    /* left: 14.1rem; */
+    right: 4.7rem;
     background-image: url('./img/img1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 531px;
-    width: 298px;
+    height: 53.1rem;
+    width: 29.8rem;
     z-index: 1000;
     animation: switch-img 2s linear infinite;
 }
@@ -354,13 +378,13 @@ button:hover {
 /* Anh tren mang */
 /* .bai5-img-w-phone{
     position: absolute;
-    top: 198px;
-    left: 140px;
+    top: 19.8rem;
+    left: 14.0rem;
     background-image: url('./img/bucanh1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 334px;
-    width: 298px;
+    height: 33.4rem;
+    width: 29.8rem;
     z-index: 1000;
     animation: switch-img-w-phone 8s linear infinite;
 }
@@ -380,31 +404,33 @@ button:hover {
     }
 } */
 
-.bai5 .login-container {
-    padding: 10px;
-}
+/* .bai5 .login-container {
+} */
 
 .bai5 .login-container {
+    padding: 1rem;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid #ccc;
+    margin-bottom: 2rem;
 }
 
 .bai5 .login {
-    width: 400px;
+    width: 40rem;
     text-align: center;
 }
 
 .bai5 .login-container,
 .bai5 .sign-up-container{
-    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.3);
+    box-shadow: 0.1rem 0.2rem 0.4rem 0.1rem rgba(0,0,0,0.3);
 }
 
 .bai5 h2 {
-    font-size: 50px;
-    margin: 20px 0 30px 0 ;
+    font-size: 5rem;
+    margin: 2rem 0 3rem 0 ;
 }
 
 .bai5 .fogot-pwd,
@@ -416,25 +442,26 @@ button:hover {
 }
 
 .bai5 .login input{
-    padding: 10px 20px 10px 20px;
-    padding: 10px 20px 10px 10px;
+    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 1rem;
     outline: 0;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+        border: 0.1rem solid #ccc;
 }
 
 .bai5 .button-login {
     background-color: #5ecfdc;
     color: #fff;
-    padding: 10px;
+    padding: 1rem;
     font-weight: 600;
-    margin: 10px 0 15px 0;
+    margin: 1rem 0 1.5rem 0;
     cursor: pointer;
 }
 
 .bai5 .separate {
-    border-top: 1px solid #ccc;
+    border-top: 0.1rem solid #ccc;
     position: relative;
-    margin: 10px 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: center;
 }
@@ -442,7 +469,7 @@ button:hover {
 .bai5 .separate .or {
     color: #ccc;
     position: absolute;
-    top: -10px;
+    top: -1rem;
     width: 14%;
     /* margin: auto; */
     background-color: #FAFAFA;
@@ -456,19 +483,19 @@ button:hover {
 
 .bai5 .login-w-facebook {
     /* display: block; */
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 1.8rem;
+    margin: 1rem 0;
 }
 
 .bai5 .fogot-pwd {
     /* display: block; */
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .bai5 .sign-up-container {
-    padding: 20px;
-    font-size:17px;
+    padding: 2rem;
+    font-size:1.7rem;
 }
 
 .bai5 .sign-up-container a {
@@ -477,24 +504,120 @@ button:hover {
 }
 
 .get-app {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .get-app p {
-    font-size:17px;
-    padding: 20px;
+    font-size:1.7rem;
+    padding: 2rem;
 }
 
 .get-app .download {
     display: flex;
     justify-content:center;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .get-app .download img {
-    height: 44px;
+    height: 4.4rem;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 /* Bai 5 end */
+
+@media (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .bai1 .container {
+        width: unset;
+        height: unset;
+        padding: 3rem;
+    }
+
+    .bai1 input {
+        width: 73%;
+    }
+
+    .bai2-lan2 .container .content,
+    .bai2-lan2 .container {
+        width: unset;
+    }
+
+    .bai3 .container {
+        width: unset;
+        padding: 2rem;
+    }
+
+    .bai4 {
+        height:unset;
+    }
+
+    .bai4,
+    .bai4 .header,
+    .bai4 .box-container {
+        width: unset;
+    }
+
+    .bai4 .box-container {
+        flex-wrap: wrap;
+        position: unset;
+        padding-bottom: 3rem;
+    }
+    
+    .bai4 .box-container .box{
+        width: 96%;
+    }
+
+
+    .bai5 .phone {
+        display: none;
+    }
+}
+
+@media (max-width: 891px) {
+    html {
+        font-size: 50.2%;
+    }
+
+    .bai1 .container {
+
+    }
+
+    .bai2 .img {
+        margin-top: 2rem;
+    }
+    .bai2-lan2 .img {
+        margin-top: 2rem;
+    }
+    .bai2-lan2 .container .content,
+    .bai2 .content {
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+
+    .bai3 .content-text {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .bai3 .content-text button {
+        margin-top: 1rem;
+    }
+    .bai5 .login {
+        width: unset;
+    }
+    .bai5 h2 {
+        font-size: 3rem;
+    }
+    .bai5 .fogot-pwd,
+    .bai5 .login-w-facebook,
+    .bai5 .button-login,
+    .bai5 .separate,
+    .bai5 .login input{
+        width: 90%;
+    }
+}
