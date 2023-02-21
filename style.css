@@ -219,7 +219,7 @@ button:hover {
 
 .bai3 .container {
     margin: auto;
-    width: 133.6rem;
+    width: 120rem;
 }
 
 .bai3 .container textarea{
@@ -256,7 +256,7 @@ button:hover {
     height: 45rem;
     /* display: flex; */
     justify-content: center;
-    width: 133.6rem;
+    width: 120rem;
     margin: auto;
 }
 
@@ -264,7 +264,7 @@ button:hover {
     background-color: #01BACF;
     color: #fff;
     padding: 2rem 3rem 4rem 2rem;
-    width: 133.6rem;
+    width: 120rem;
     height: 16.8rem;
     /* margin-left: 2.8rem; */
     /* width: 100%; */
@@ -298,7 +298,7 @@ button:hover {
     top: 13rem;
     border-right-color: #ccc;
     /* width: 100%; */
-    width: 133.6rem
+    width: 120rem
 }
 
 .bai4 .box-container .box {
@@ -583,9 +583,9 @@ button:hover {
         font-size: 50.2%;
     }
 
-    .bai1 .container {
+    /* .bai1 .container {
 
-    }
+    } */
 
     .bai2 .img {
         margin-top: 2rem;
